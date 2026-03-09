@@ -154,6 +154,8 @@ main section {
 .items {
     display: flex;
     justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 10px;
 
 
 }
@@ -287,8 +289,9 @@ div img {
 
 @media screen and (max-width: 576px) {
 
-
+    .items,
     .skill-container,
+    .resume-container,
     footer {
         flex-direction: column;
     }
@@ -301,7 +304,8 @@ div img {
         margin: 0;
     }
 
-    footer {
+    footer,
+    .about {
         padding: 20px;
     }
 

@@ -288,7 +288,8 @@ div img {
 @media screen and (max-width: 576px) {
 
 
-    .skill-container {
+    .skill-container,
+    footer {
         flex-direction: column;
     }
 
@@ -300,4 +301,18 @@ div img {
         margin: 0;
     }
 
+    footer {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 40px);
+    }
 }

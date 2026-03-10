@@ -289,11 +289,43 @@ div img {
 
 @media screen and (max-width: 576px) {
 
+    nav,
+    nav ul,
+    .banner,
     .items,
     .skill-container,
     .resume-container,
     footer {
         flex-direction: column;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner-pic {
+        width: 100%;
+    }
+
+    div img {
+        margin: 0;
+    }
+
+    .banner {
+        margin: 20px;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    nav ul {
+        margin: 0;
+        gap: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
     }
 
     .main {
